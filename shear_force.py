@@ -196,7 +196,7 @@ moment_arm = Shear_moment_arm(NSpS, StZ, Sty, h_a, qb)
 print(ShearCenterZ(moment_arm, qs01, qs02, Ac, At, h_a, Vy))
 '''
 
-'''Print Twist
+'''Print Twist'''
 n_points = 1000
 x_points = np.linspace(0, l_a, num=n_points)
 step = 2.6e-3
@@ -213,7 +213,7 @@ plt.xlabel('Span-wise location[m], from hinge 3 to 1', fontsize=10)
 plt.ylabel('Aileron twist [deg]', fontsize=10)
 plt.legend()
 plt.show()
-'''
+
 
 def compute_q(position):
     Vy, Vz = get_forces(position, theta) #first entry refers to the position
