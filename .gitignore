@@ -1,6 +1,7 @@
 #Project
 *.idea/
 von_mises.html
+*B737n
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

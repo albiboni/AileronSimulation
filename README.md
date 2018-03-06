@@ -5,7 +5,7 @@ The assignment consists in analyzing the aileron of a Boeing 737 loaded with an 
 The code solves the static undetermined problem and computes the distribution of forces, moments and stresses in the structure.
 Furthermore it is able to calculate the deflection, the slope and the curvature of the aileron.
 
-##Overview
+## Overview
 main.py
 
 Boom.py  #It finds the position and the area of the booms
@@ -24,9 +24,12 @@ reaction_forces.py  #Calculates the reaction forces of the statically indetermin
 
 shear_force.py  #Calculates the shear flow in the structure, the shear center and the  aileron's twist
 
-##Data
+## Data
 
+This folder contains the final report for this project developed by group 1 and the results.
+The upward and downward rotation of the different validation cases is always 28 deg.
 
+Main source of reference: Megson, T. H. G. (2013). Aircraft Structures for Engineering Students (5th ed.). Oxford: Elsevier Aerospace Engineering Series.
 
 ## Requirements
 Python  2.7.13
